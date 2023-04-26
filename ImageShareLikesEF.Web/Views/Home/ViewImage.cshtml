@@ -1,0 +1,22 @@
+﻿@model ViewImageViewModel
+
+<div class="row">
+    <input type="hidden" id="image-id" value="@Model.Image.Id" />
+    <div class="col-md-10 offset-md-1 bg-light p-4 rounded shadow">
+        <h1>@Model.Image.Title</h1>
+        <img src="/uploads/@Model.Image.FileName" style="width: 900px;" />
+        <br />
+        <br />
+        @if (Model.CanLikeImage)
+        {
+            <button id="like-button" class="btn btn-primary btn-lg">LIKE</button> }
+        else
+        {
+            <button class="btn btn-primary btn-lg" disabled>LIKE</button>}
+                Current Likes: <span id="likes-count">@Model.Image.Likes</span>
+            </div>
+</div>
+
+@section scripts {
+    <script src="/js/view-image.js"></script>
+}

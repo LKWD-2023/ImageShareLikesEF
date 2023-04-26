@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32819.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageShareLikesEF.Web", "ImageShareLikesEF.Web\ImageShareLikesEF.Web.csproj", "{408B6F69-0404-4D15-BE87-87E0C5A96F84}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageShareLikesEF.Data", "ImageShareLikesEF.Data\ImageShareLikesEF.Data.csproj", "{B9231A9D-B72F-494B-B890-E0B2206045B8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{408B6F69-0404-4D15-BE87-87E0C5A96F84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{408B6F69-0404-4D15-BE87-87E0C5A96F84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{408B6F69-0404-4D15-BE87-87E0C5A96F84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{408B6F69-0404-4D15-BE87-87E0C5A96F84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9231A9D-B72F-494B-B890-E0B2206045B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9231A9D-B72F-494B-B890-E0B2206045B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9231A9D-B72F-494B-B890-E0B2206045B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9231A9D-B72F-494B-B890-E0B2206045B8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {80453FBC-8426-4DA9-8D0F-383774D6987E}
+	EndGlobalSection
+EndGlobal
